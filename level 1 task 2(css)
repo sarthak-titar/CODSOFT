@@ -1,0 +1,157 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo {
+    max-width: 13px;
+    margin-bottom: 12px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section#about {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+section#projects {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+section#projects .project {
+    margin-bottom: 30px;
+}
+
+section#projects h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+section#projects p {
+    font-size: 1.1rem;
+}
+
+section#resume {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+section#resume a {
+    color: #007bff;
+    font-weight: 500;
+}
+
+section#contact {
+    background-color: #f4f4f4;
+}
+
+section#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header .logo {
+        max-width: 80px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 40px 10px;
+    }
+
+    section#projects .project {
+        margin-bottom: 20px;
+    }
+
+    section#projects h3 {
+        font-size: 1.5rem;
+    }
+
+    section#resume a {
+        font-size: 1rem;
+    }
+
+    section#contact p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
