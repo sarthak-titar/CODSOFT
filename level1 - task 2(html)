@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        
+        <div class="container">
+            <img src="logo.png" alt="C:\Users\sarth\OneDrive\Desktop\code soft\logo.png" class="logo">
+            <h1>sarthak titar</h1>
+            <p>Software Developer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm sarthak Titar, a passionate software developer with 1 year of professional experience. I specialize in building web applications and have a strong foundation in front-end technologies like HTML, CSS, and JavaScript, as well as back-end skills in Node.js. My goal is to create efficient and scalable software solutions while continually improving my skills and knowledge.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>A brief description of the project goes here. Highlight the key technologies used and the outcome.</p>
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>A brief description of the project goes here. Highlight the key technologies used and the outcome.</p>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>You can download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:johndoe@example.com">sarthak@gmail.com</a></p>
+            <p>Phone:55562151555 </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 sarthak titar. All rights reserved.</p>
+            <p>Follow me on <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
